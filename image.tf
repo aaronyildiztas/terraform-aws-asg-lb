@@ -1,3 +1,8 @@
+# your own ami
+#data "aws_ami" "compnay" {
+# most_recent = true
+# owners = ["self"]
+
 data "aws_ami" "image" {
   most_recent = true
 
@@ -15,7 +20,7 @@ data "aws_ami" "image" {
 }
 
 data "aws_availability_zones" "all" {}
-output name {
+output AZ {
   value       = data.aws_availability_zones.all.names
  
 }
