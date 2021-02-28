@@ -4,8 +4,6 @@ terraform-aws-asg-elb
 #### Requirements
 #### Please user terraform 0.14.7 or above
 
-```
-
 ### please copy paste the below code
 ```
 module "wordpress" {
