@@ -4,7 +4,7 @@ terraform-aws-asg-elb
 #### Requirements
 #### Please user terraform 0.14.7 or above
 
-### please copy paste the below code
+### Please copy paste the below code
 ```
 module "asg_elb" {
     source = "aaronyildiztas/asg_elb/aws"
