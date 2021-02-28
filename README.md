@@ -7,7 +7,7 @@ terraform-aws-asg-elb
 ### please copy paste the below code
 ```
 module "wordpress" {
-    source = "../terraform-aws-asg-lb"
+    source = "aaronyildiztas/terraform-aws-asg_elb/aws"
     aws_region       = "us-east-1"
     desired_capacity = 1
     max_size         = 1
